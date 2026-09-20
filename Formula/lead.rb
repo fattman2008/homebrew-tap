@@ -10,7 +10,7 @@ class Lead < Formula
   depends_on "withgraphite/tap/graphite"
 
   def install
-    ldflags = "-s -w -X github.com/fattman2008/lead/internal/cli.Version=#{version}"
+    ldflags = "-X github.com/fattman2008/lead/internal/cli.Version=#{version}"
     system "go", "build", *std_go_args(ldflags:, output: bin/"pt"), "./cmd/pt"
   end
 
