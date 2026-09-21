@@ -1,8 +1,8 @@
 class Lead < Formula
   desc "Graphite-shaped stacking with worktree-first parallelism"
   homepage "https://github.com/fattman2008/lead"
-  url "https://github.com/fattman2008/lead/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "52faf7a830263a158abc2028d49f11d039b1b063550017a4bceb524f043f95f2"
+  url "https://github.com/fattman2008/lead/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "8ca7c0991183c718a17cb4925c1374f2d210bd315a53ed8e4a3d9f25797ae49e"
   license "MIT"
 
   depends_on "go" => :build
